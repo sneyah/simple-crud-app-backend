@@ -21,6 +21,6 @@ This is a simple CRUD (Create, Read, Update, Delete) application backend built w
 ### Installation
 
 ```sh
-git clone https://github.com/your-username/simple-crud-app.git
+git clone https://github.com/sneyah/simple-crud-app.git
 cd simple-crud-app
 npm install
