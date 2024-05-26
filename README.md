@@ -37,17 +37,7 @@ To install and set up the Simple CRUD App Backend, follow these steps:
 
     This command will install all the necessary dependencies required for the application to run.
 
-3. Set up environment variables:
-
-    Before running the application, ensure that you have a MongoDB instance available. Create a `.env` file in the root directory and add your MongoDB connection string. For example:
-
-    ```plaintext
-    MONGO_URI=mongodb://localhost:27017/simple-crud-db
-    ```
-
-    Replace `mongodb://localhost:27017/simple-crud-db` with your actual MongoDB connection string.
-
-4. Run the application:
+3. Run the application:
 
     ```sh
     npm start
@@ -55,6 +45,7 @@ To install and set up the Simple CRUD App Backend, follow these steps:
 
     This command will start the server, and you should see a message indicating that the server is running on a specific port (e.g., `Server is running on port 3000`).
 
-5. Access the application:
+4. Access the application:
 
     Once the server is running, you can access the application's endpoints using tools like cURL, Postman, or any web browser. The base URL for the API endpoints will be `http://localhost:3000/api/products`.
+
